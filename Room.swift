@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Room {
+struct Room: Identifiable {
     var id: String
     var hostUserId: String
     var playlist: [Song]
